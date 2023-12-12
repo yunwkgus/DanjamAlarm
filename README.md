@@ -1,8 +1,4 @@
 # DANJAM ALARM
-
-<img src="https://github.com/DeveloperAcademy-POSTECH/MacC-Team10-Guryongpo/assets/52576276/9f48dad1-cad0-43bd-af41-bca03594dce2" width="20%">
-<img src="https://github.com/DeveloperAcademy-POSTECH/MacC-Team10-Guryongpo/assets/52576276/4fa19740-8b6c-4974-b99d-f5092aa6acc1" width="20%">
-
 </br>
 </br>
 
