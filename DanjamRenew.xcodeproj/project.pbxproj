@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68C05DF02B27246C003423F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C05DEF2B27246C003423F1 /* Assets.xcassets */; };
+		68C05DF22B28A3E4003423F1 /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C05DF12B28A3E4003423F1 /* UserNotification.swift */; };
+		68C05DF42B28A453003423F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C05DF32B28A453003423F1 /* AppDelegate.swift */; };
+		68DC75FD2AD1822600749BD5 /* DanjamRenewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC75FC2AD1822600749BD5 /* DanjamRenewApp.swift */; };
+		68DC75FF2AD1822600749BD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC75FE2AD1822600749BD5 /* ContentView.swift */; };
+		68DC76042AD1822700749BD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DC76032AD1822700749BD5 /* Preview Assets.xcassets */; };
+		68DC760B2AD193FD00749BD5 /* NightLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC760A2AD193FD00749BD5 /* NightLottie.swift */; };
+		68DC76132AD1960E00749BD5 /* LottieUI in Frameworks */ = {isa = PBXBuildFile; productRef = 68DC76122AD1960E00749BD5 /* LottieUI */; };
+		68DC76152AD1977F00749BD5 /* DayLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC76142AD1977F00749BD5 /* DayLottie.swift */; };
+		68DC76172AD19C2300749BD5 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC76162AD19C2300749BD5 /* AlarmView.swift */; };
+		68DC76192AD19EED00749BD5 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC76182AD19EED00749BD5 /* WaveView.swift */; };
+		68DC761B2AD1A2AF00749BD5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC761A2AD1A2AF00749BD5 /* Data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68C05DEF2B27246C003423F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68C05DF12B28A3E4003423F1 /* UserNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
+		68C05DF32B28A453003423F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68DC75F92AD1822600749BD5 /* DanjamRenew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanjamRenew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DC75FC2AD1822600749BD5 /* DanjamRenewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanjamRenewApp.swift; sourceTree = "<group>"; };
+		68DC75FE2AD1822600749BD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68DC76032AD1822700749BD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68DC760A2AD193FD00749BD5 /* NightLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightLottie.swift; sourceTree = "<group>"; };
+		68DC76142AD1977F00749BD5 /* DayLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayLottie.swift; sourceTree = "<group>"; };
+		68DC76162AD19C2300749BD5 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		68DC76182AD19EED00749BD5 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		68DC761A2AD1A2AF00749BD5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DC75F62AD1822600749BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DC76132AD1960E00749BD5 /* LottieUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DC75F02AD1822600749BD5 = {
+			isa = PBXGroup;
+			children = (
+				68C05DEF2B27246C003423F1 /* Assets.xcassets */,
+				68DC75FB2AD1822600749BD5 /* DanjamRenew */,
+				68DC75FA2AD1822600749BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DC75FA2AD1822600749BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DC75F92AD1822600749BD5 /* DanjamRenew.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DC75FB2AD1822600749BD5 /* DanjamRenew */ = {
+			isa = PBXGroup;
+			children = (
+				68DC75FC2AD1822600749BD5 /* DanjamRenewApp.swift */,
+				68DC75FE2AD1822600749BD5 /* ContentView.swift */,
+				68DC76022AD1822700749BD5 /* Preview Content */,
+				68DC760A2AD193FD00749BD5 /* NightLottie.swift */,
+				68DC76142AD1977F00749BD5 /* DayLottie.swift */,
+				68DC76162AD19C2300749BD5 /* AlarmView.swift */,
+				68DC76182AD19EED00749BD5 /* WaveView.swift */,
+				68DC761A2AD1A2AF00749BD5 /* Data.swift */,
+				68C05DF12B28A3E4003423F1 /* UserNotification.swift */,
+				68C05DF32B28A453003423F1 /* AppDelegate.swift */,
+			);
+			path = DanjamRenew;
+			sourceTree = "<group>";
+		};
+		68DC76022AD1822700749BD5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68DC76032AD1822700749BD5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DC75F82AD1822600749BD5 /* DanjamRenew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DC76072AD1822700749BD5 /* Build configuration list for PBXNativeTarget "DanjamRenew" */;
+			buildPhases = (
+				68DC75F52AD1822600749BD5 /* Sources */,
+				68DC75F62AD1822600749BD5 /* Frameworks */,
+				68DC75F72AD1822600749BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanjamRenew;
+			packageProductDependencies = (
+				68DC76122AD1960E00749BD5 /* LottieUI */,
+			);
+			productName = DanjamRenew;
+			productReference = 68DC75F92AD1822600749BD5 /* DanjamRenew.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DC75F12AD1822600749BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					68DC75F82AD1822600749BD5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 68DC75F42AD1822600749BD5 /* Build configuration list for PBXProject "DanjamRenew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DC75F02AD1822600749BD5;
+			packageReferences = (
+				68DC76112AD1960E00749BD5 /* XCRemoteSwiftPackageReference "LottieUI" */,
+			);
+			productRefGroup = 68DC75FA2AD1822600749BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DC75F82AD1822600749BD5 /* DanjamRenew */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DC75F72AD1822600749BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C05DF02B27246C003423F1 /* Assets.xcassets in Resources */,
+				68DC76042AD1822700749BD5 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DC75F52AD1822600749BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DC761B2AD1A2AF00749BD5 /* Data.swift in Sources */,
+				68DC75FF2AD1822600749BD5 /* ContentView.swift in Sources */,
+				68DC76192AD19EED00749BD5 /* WaveView.swift in Sources */,
+				68C05DF42B28A453003423F1 /* AppDelegate.swift in Sources */,
+				68DC75FD2AD1822600749BD5 /* DanjamRenewApp.swift in Sources */,
+				68DC76172AD19C2300749BD5 /* AlarmView.swift in Sources */,
+				68DC76152AD1977F00749BD5 /* DayLottie.swift in Sources */,
+				68DC760B2AD193FD00749BD5 /* NightLottie.swift in Sources */,
+				68C05DF22B28A3E4003423F1 /* UserNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68DC76052AD1822700749BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68DC76062AD1822700749BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68DC76082AD1822700749BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanjamRenew/Preview Content\"";
+				DEVELOPMENT_TEAM = V7Y2HCV8V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josewise.DanjamRenew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DC76092AD1822700749BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanjamRenew/Preview Content\"";
+				DEVELOPMENT_TEAM = V7Y2HCV8V2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = josewise.DanjamRenew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DC75F42AD1822600749BD5 /* Build configuration list for PBXProject "DanjamRenew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DC76052AD1822700749BD5 /* Debug */,
+				68DC76062AD1822700749BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DC76072AD1822700749BD5 /* Build configuration list for PBXNativeTarget "DanjamRenew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DC76082AD1822700749BD5 /* Debug */,
+				68DC76092AD1822700749BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68DC76112AD1960E00749BD5 /* XCRemoteSwiftPackageReference "LottieUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/LottieUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68DC76122AD1960E00749BD5 /* LottieUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68DC76112AD1960E00749BD5 /* XCRemoteSwiftPackageReference "LottieUI" */;
+			productName = LottieUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 68DC75F12AD1822600749BD5 /* Project object */;
+}

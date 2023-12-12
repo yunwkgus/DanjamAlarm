@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "lottie-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3e7eb8281ff9ac67e64a3a58a80c0aa9fa388b04"
+      }
+    },
+    {
+      "identity" : "lottieui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jasudev/LottieUI.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0cd5b54a1c8467b19c01f56395aec179087b62e2"
+      }
+    }
+  ],
+  "version" : 2
+}
